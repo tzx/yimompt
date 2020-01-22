@@ -1,3 +1,7 @@
+mod modules;
+
 fn main() {
-    println!("Hello, world!");
+    let x = modules::directory::get_dir();
+    println!("{}", x);
+    println!("$ ");
 }
