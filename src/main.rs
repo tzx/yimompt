@@ -1,7 +1,6 @@
-mod modules;
+mod directory;
 
 fn main() {
-    let x = modules::directory::get_dir();
-    println!("{}", x);
+    directory::display();
     println!("$ ");
 }
