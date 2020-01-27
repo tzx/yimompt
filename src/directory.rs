@@ -6,7 +6,7 @@ pub fn display() {
 
     let stdout = io::stdout();
     let mut stdout = stdout.lock();
-    write!(stdout, "{}", shortened_dir).unwrap();
+    write!(stdout, "{}\n$", shortened_dir).unwrap();
 }
 
 fn shorten_path(path: &str) -> String {
